@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Assets\logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option">
+            <a href="#" class="home">
+              <i class="fa-solid fa-house" style="color: #ffffff"></i>Home</a
+            >
+          </div>
+          <div class="nav-option">
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i>Search</a>
+          </div>
+        </div>
+
+        <div class="library">
+          <div class="options">
+            <div class="lib-option">
+              <a href="#"
+                ><img src="Assets\library_icon.png" alt="library icon" />Your
+                Library</a
+              >
+            </div>
+
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="lib-box">
+            <div class="box">
+              <p class="p1">Create your first playlist</p>
+              <p class="p2">It's easy, we'll help you</p>
+              <button class="btn">Create Playlist</button>
+            </div>
+
+            <div class="box" id="box2">
+              <p class="p1">Let's find some podcasts to follow</p>
+              <p class="p2">We'll keep you updated on new episodes</p>
+              <button class="btn">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="arrows">
+            <span id="left-arrow">
+              <i class="fa-solid fa-chevron-left"></i>
+            </span>
+            <span id="right-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </span>
+          </div>
+
+          <div class="sticky-nav-options">
+            <button class="btn" id="premium">Explore Premium</button>
+
+            <button class="btn" id="download">
+              <i class="fa-regular fa-circle-down"></i> Install app
+            </button>
+
+            <i id="user-icon" class="fa-regular fa-user"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\card1img.jpeg"
+              alt="Top-50 Global"
+            />
+            <p class="card-title">Top-50 Global</p>
+            <p class="card-info">
+              Your daily updates of the most played songs - Global
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\Top_gun_.jpeg"
+              alt="Danger Zone(from Top Gun)"
+            />
+            <p class="card-title">Danger Zone - From "Top Gun"</p>
+            <p class="card-info">Kenny Loggins</p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\animal.jpeg"
+              alt="Arjan Vailly(from ANIMAL)"
+            />
+            <p class="card-title">Arjan Vailly - From "ANIMAL"</p>
+            <p class="card-info">Manan Bhardwaj, Bhupinder Babbal</p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\Rockstar.jpeg"
+              alt="Saddaa Haq(from Rockstar)"
+            />
+            <p class="card-title">Saddaa Haq - From "Rockstar"</p>
+            <p class="card-info">Mohit Chauhan</p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\Top_gun_.jpeg"
+              alt="Danger Zone(from Top Gun)"
+            />
+            <p class="card-title">Danger Zone - From "Top Gun"</p>
+            <p class="card-info">Kenny Loggins</p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\The_Boy_Is_Mine.png"
+              alt="the boy is mine"
+            />
+            <p class="card-title">the boy is mine</p>
+            <p class="card-info">Arian Grande</p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\Top Songs Global.jpeg"
+              alt="Top Songs-Global"
+            />
+            <p class="card-title">Top Songs-Global</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now - Global.
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\Top Songs India.jpeg"
+              alt="Top Songs-India"
+            />
+            <p class="card-title">Top Songs-India</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now - India.
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="Assets\card1img.jpeg"
+              alt="Top-50 Global"
+            />
+            <p class="card-title">Top-50 Global</p>
+            <p class="card-info">
+              Your daily updates of the most played songs - Global
+            </p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="album"></div>
+
+        <div class="player">
+          <div class="player-controls">
+            <img src="Assets\player_icon1.png" class="player-control-icon" />
+            <img src="Assets\player_icon2.png" class="player-control-icon" />
+            <img src="Assets\player_icon3.png" class="player-control-icon" />
+            <img src="Assets\player_icon4.png" class="player-control-icon" />
+            <img src="Assets\player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input type="range" class="progress-bar" min="0" max="10" />
+            <span class="total-time">3:33</span>
+          </div>
+        </div>
+
+        <div class="controls"></div>
+      </div>
+    </div>
+  </body>
+</html>
