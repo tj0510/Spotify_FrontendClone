@@ -6,8 +6,11 @@ A responsive frontend clone of the Spotify web player designed using **HTML** an
 
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/6c11cc5f-3737-414b-8a6a-fdee8cef452b)
+
+
 ![image](https://github.com/user-attachments/assets/4fed9f5e-155b-4f77-abf2-d7628bc6ab37)
-![image](https://github.com/user-attachments/assets/36c4162c-ceb6-4ead-acfb-b939a5acbd12)
+
+
 
 
 ---
