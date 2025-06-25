@@ -40,23 +40,7 @@ A responsive frontend clone of the Spotify web player designed using **HTML** an
 ---
 
 ## 📁 Folder Structure
-Spotify_FrontendClone/
-├── Assets/
-│ ├── logo.png
-│ ├── card1img.jpeg
-│ ├── Top_gun_.jpeg
-│ ├── animal.jpeg
-│ ├── Rockstar.jpeg
-│ ├── The_Boy_Is_Mine.png
-│ ├── Top Songs Global.jpeg
-│ ├── Top Songs India.jpeg
-│ ├── library_icon.png
-│ ├── player_icon1.png (to player_icon5.png)
-├── README.md
-├── add_circle.png
-├── index.html
-└── style.css
-
+``` Spotify_FrontendClone/ ├── Assets/ │ ├── logo.png │ ├── card1img.jpeg │ ├── Top_gun_.jpeg │ ├── animal.jpeg │ ├── Rockstar.jpeg │ ├── The_Boy_Is_Mine.png │ ├── Top Songs Global.jpeg │ ├── Top Songs India.jpeg │ ├── library_icon.png │ ├── player_icon1.png │ ├── player_icon2.png │ ├── player_icon3.png │ ├── player_icon4.png │ └── player_icon5.png ├── README.md ├── add_circle.png ├── index.html └── style.css ```
 ---
 
 ## 📦 How to Run Locally
